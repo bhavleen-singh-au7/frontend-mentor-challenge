@@ -7,13 +7,7 @@ body {
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000000;
-  background-image: linear-gradient(
-    315deg,
-    #000000 0%,
-    #414141 74%
-  );
-  background-repeat: no-repeat;
+  background-color: gray;
 }
 
 ul {

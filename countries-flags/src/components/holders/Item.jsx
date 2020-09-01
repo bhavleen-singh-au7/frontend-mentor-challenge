@@ -7,13 +7,11 @@ const Item = ({ item }) => {
         <img src={item.flag} className="card-img-top" alt="flags" />
         <div className="card-body">
           <h2 className="card-title text-center"><ins>{item.name}</ins></h2>
-          <p className="card-text">
-            <ul>
-              <li><strong>Capital</strong>: {item.capital}</li>
-              <li><strong>Region</strong>: {item.region}</li>
-              <li><strong>Language</strong>: {item.languages[0].name}</li>
-            </ul>
-          </p>
+          <ul className="card-text">
+            <li><strong>Capital</strong>: {item.capital}</li>
+            <li><strong>Region</strong>: {item.region}</li>
+            <li><strong>Language</strong>: {item.languages[0].name}</li>
+          </ul>
         </div>
       </div>
     </div>

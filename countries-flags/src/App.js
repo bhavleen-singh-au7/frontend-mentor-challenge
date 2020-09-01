@@ -11,9 +11,9 @@ function App() {
 
   useEffect(() => {
     const fetchItems = async () => {
-      const result = await axios(`https://restcountries.eu/rest/v2/name/${query}`);
+      const result = await axios(`https://restcountries.eu/rest/v2?name/${query}`);
 
-      console.log(result.data);
+      console.log(result.data); 
       setItems(result.data);
       setIsLoading(false);
 
